@@ -15,5 +15,4 @@ const app = new Vue ({
             this.imgMurray = 'https://www.fillmurray.com/' + this.randomNumber() + '/' + this.randomNumber();
         },
     }
-
 });
