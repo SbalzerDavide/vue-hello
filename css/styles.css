@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1,
+h3{
+    margin: 10px;
+}
+
+i{
+    font-size: 30px;
+}
+
+section{
+    margin: 20px auto;
+}
