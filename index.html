@@ -12,8 +12,10 @@
         <h1>{{ title }}</h1>
         <h3>{{ message }}</h3>
         <h3>{{ changeImage() }}</h3>
-        <!-- <i class="fas fa-arrow-down"></i> -->
-        <button @click='changeImage'>Click here for change image</button>
+        <div class="interaction">
+            <button @click='changeImage'>Click here for change image</button>
+        </div>
+        <i class="fas fa-arrow-down"></i>
         <section>
             <img :src="imgMurray" alt="">
         </section>
